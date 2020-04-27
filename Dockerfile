@@ -11,6 +11,8 @@ RUN cd distribution && DIR_NAME=$(echo `ls` | awk '{print $NF}') && mv $DIR_NAME
 
 
 FROM alpine:3.11
+LABEL owner="Giancarlos Salas"
+LABEL maintainer="giansalex@gmail.com"
 
 WORKDIR /lanproxy
 EXPOSE 8090 4900 4993
