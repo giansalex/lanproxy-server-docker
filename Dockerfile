@@ -14,6 +14,7 @@ FROM alpine:3.11
 
 WORKDIR /lanproxy
 EXPOSE 8090 4900 4993
+VOLUME /lanproxy/conf
 
 RUN apk add --no-cache openjdk8-jre
 COPY --from=build /lanproxy/lanproxy-server ./
