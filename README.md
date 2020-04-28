@@ -1,5 +1,5 @@
 # Lanproxy Server - Docker Image
-[![Docker Build Status](https://img.shields.io/docker/build/giansalex/lanproxy-server-docker.svg?style=flat-square)](https://hub.docker.com/r/giansalex/lanproxy-server-docker/)
+[![Docker Build Status](https://img.shields.io/docker/cloud/build/giansalex/lanproxy-server-docker.svg?style=flat-square)](https://hub.docker.com/r/giansalex/lanproxy-server-docker/)
 
 [Lanproxy server](https://github.com/ffay/lanproxy) as Docker Image.
 
