@@ -16,7 +16,7 @@ docker run -d \
     giansalex/lanproxy-server
 ```
 
-> Change range port `9000-9100` as you need. 
+> Change range port `9100-9200` as you need. 
 
 **Advance Example**    
 Create `config.properties` and change paremeters.
